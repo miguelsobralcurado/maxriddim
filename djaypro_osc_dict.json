@@ -1,0 +1,469 @@
+{
+	"djay": {
+		"mixer": {
+			"crossfader": 0.0,
+			"turntable1": {
+				"lineFader": 0,
+				"externalLineFader": 0.0,
+				"eq": {
+					"low": 0.0,
+					"mid": 0.0,
+					"high": 0.0
+				},
+				"meter": -300.0
+			},
+			"turntable2": {
+				"lineFader": 0,
+				"externalLineFader": 0.0,
+				"eq": {
+					"low": 0.0,
+					"mid": 0.0,
+					"high": 0.0
+				},
+				"meter": -300.0
+			},
+			"turntable3": {
+				"lineFader": 0,
+				"externalLineFader": 0.0,
+				"eq": {
+					"low": 0.0,
+					"mid": 0.0,
+					"high": 0.0
+				},
+				"meter": -300.0
+			},
+			"turntable4": {
+				"lineFader": 0,
+				"externalLineFader": 0.0,
+				"eq": {
+					"low": 0.0,
+					"mid": 0.0,
+					"high": 0.0
+				},
+				"meter": -300.0
+			}
+		},
+		"turntable1": {
+			"song": {
+				"loaded": 1,
+				"duration": 0,
+				"title": {
+					"artist": "",
+					"album": "",
+					"genre": ""
+				},
+				"artworkAvailable": 0,
+				"key": 1,
+				"bpm": 1
+			},
+			"playback": {
+				"playing": 0,
+				"bpm": 1,
+				"time" : 0.0,
+				"bar" : 1.0,
+				"beat" : 1.0,
+				"phase" : 0.0,
+				"barPhase" : 0.0
+			},
+			"loop": {
+				"active": 0,
+				"beats": 0,
+				"inTime": 0,
+				"outTime": 0
+			},
+			"fx": {
+				"1": {
+					"type": "",
+					"active": 0,
+					"dryWet": 0.0,
+					"parameterIsBeats": 0,
+					"parameterBeats": 0,
+					"parameterContinuous": 0.0
+				},
+				"2": {
+					"type": "",
+					"active": 0,
+					"dryWet": 0.0,
+					"parameterIsBeats": 0,
+					"parameterBeats": 0,
+					"parameterContinuous": 0.0
+				},
+				"3": {
+					"type": "",
+					"active": 0,
+					"dryWet": 0.0,
+					"parameterIsBeats": 0,
+					"parameterBeats": 0,
+					"parameterContinuous": 0.0
+				}
+			},
+			"neuralmix": {
+				"drums": {
+					"audibleVolume": 0.0,
+					"level": 0,
+					"mute": 0,
+					"solo": 0,
+					"eq": {
+						"low": 0.0,
+						"mid": 0.0,
+						"high": 0.0
+					}
+				},
+				"bass": {
+					"audibleVolume": 0.0,
+					"level": 0,
+					"mute": 0,
+					"solo": 0,
+					"eq": {
+						"low": 0.0,
+						"mid": 0.0,
+						"high": 0.0
+					}
+				},
+				"harmonic": {
+					"audibleVolume": 0.0,
+					"level": 0,
+					"mute": 0,
+					"solo": 0,
+					"eq": {
+						"low": 0.0,
+						"mid": 0.0,
+						"high": 0.0
+					}
+				},
+				"vocals": {
+					"audibleVolume": 0.0,
+					"level": 0,
+					"mute": 0,
+					"solo": 0,
+					"eq": {
+						"low": 0.0,
+						"mid": 0.0,
+						"high": 0.0
+					}
+				}
+			}
+		},
+		"turntable2": {
+			"song": {
+				"loaded": 1,
+				"duration": 0,
+				"title": {
+					"artist": "",
+					"album": "",
+					"genre": ""
+				},
+				"artworkAvailable": 0,
+				"key": 1,
+				"bpm": 1
+			},
+			"playback": {
+				"playing": 0,
+				"bpm": 1,
+				"time" : 0.0,
+				"bar" : 1.0,
+				"beat" : 1.0,
+				"phase" : 0.0,
+				"barPhase" : 0.0,
+				"loop": {
+					"active": 0,
+					"beats": 0,
+					"inTime": 0,
+					"outTime": 0
+				},
+				"fx": {
+					"1": {
+						"type": "",
+						"active": 0,
+						"dryWet": 0.0,
+						"parameterIsBeats": 0,
+						"parameterBeats": 0,
+						"parameterContinuous": 0.0
+					},
+					"2": {
+						"type": "",
+						"active": 0,
+						"dryWet": 0.0,
+						"parameterIsBeats": 0,
+						"parameterBeats": 0,
+						"parameterContinuous": 0.0
+					},
+					"3": {
+						"type": "",
+						"active": 0,
+						"dryWet": 0.0,
+						"parameterIsBeats": 0,
+						"parameterBeats": 0,
+						"parameterContinuous": 0.0
+					}
+				},
+				"neuralmix": {
+					"drums": {
+						"audibleVolume": 0.0,
+						"level": 0,
+						"mute": 0,
+						"solo": 0,
+						"eq": {
+							"low": 0.0,
+							"mid": 0.0,
+							"high": 0.0
+						}
+					},
+					"bass": {
+						"audibleVolume": 0.0,
+						"level": 0,
+						"mute": 0,
+						"solo": 0,
+						"eq": {
+							"low": 0.0,
+							"mid": 0.0,
+							"high": 0.0
+						}
+					},
+					"harmonic": {
+						"audibleVolume": 0.0,
+						"level": 0,
+						"mute": 0,
+						"solo": 0,
+						"eq": {
+							"low": 0.0,
+							"mid": 0.0,
+							"high": 0.0
+						}
+					},
+					"vocals": {
+						"audibleVolume": 0.0,
+						"level": 0,
+						"mute": 0,
+						"solo": 0,
+						"eq": {
+							"low": 0.0,
+							"mid": 0.0,
+							"high": 0.0
+						}
+					}
+				}
+			}
+		},
+		"turntable3": {
+			"song": {
+				"loaded": 1,
+				"duration": 0,
+				"title": {
+					"artist": "",
+					"album": "",
+					"genre": ""
+				},
+				"artworkAvailable": 0,
+				"key": 1,
+				"bpm": 1
+			},
+			"playback": {
+				"playing": 0,
+				"bpm": 1,
+				"time" : 0.0,
+				"bar" : 1.0,
+				"beat" : 1.0,
+				"phase" : 0.0,
+				"barPhase" : 0.0,
+				"loop": {
+					"active": 0,
+					"beats": 0,
+					"inTime": 0,
+					"outTime": 0
+				},
+				"fx": {
+					"1": {
+						"type": "",
+						"active": 0,
+						"dryWet": 0.0,
+						"parameterIsBeats": 0,
+						"parameterBeats": 0,
+						"parameterContinuous": 0.0
+					},
+					"2": {
+						"type": "",
+						"active": 0,
+						"dryWet": 0.0,
+						"parameterIsBeats": 0,
+						"parameterBeats": 0,
+						"parameterContinuous": 0.0
+					},
+					"3": {
+						"type": "",
+						"active": 0,
+						"dryWet": 0.0,
+						"parameterIsBeats": 0,
+						"parameterBeats": 0,
+						"parameterContinuous": 0.0
+					}
+				},
+				"neuralmix": {
+					"drums": {
+						"audibleVolume": 0.0,
+						"level": 0,
+						"mute": 0,
+						"solo": 0,
+						"eq": {
+							"low": 0.0,
+							"mid": 0.0,
+							"high": 0.0
+						}
+					},
+					"bass": {
+						"audibleVolume": 0.0,
+						"level": 0,
+						"mute": 0,
+						"solo": 0,
+						"eq": {
+							"low": 0.0,
+							"mid": 0.0,
+							"high": 0.0
+						}
+					},
+					"harmonic": {
+						"audibleVolume": 0.0,
+						"level": 0,
+						"mute": 0,
+						"solo": 0,
+						"eq": {
+							"low": 0.0,
+							"mid": 0.0,
+							"high": 0.0
+						}
+					},
+					"vocals": {
+						"audibleVolume": 0.0,
+						"level": 0,
+						"mute": 0,
+						"solo": 0,
+						"eq": {
+							"low": 0.0,
+							"mid": 0.0,
+							"high": 0.0
+						}
+					}
+				}
+			}
+		},
+		"turntable4": {
+			"song": {
+				"loaded": 1,
+				"duration": 0,
+				"title": {
+					"artist": "",
+					"album": "",
+					"genre": ""
+				},
+				"artworkAvailable": 0,
+				"key": 1,
+				"bpm": 1
+			},
+			"playback": {
+				"playing": 0,
+				"bpm": 1,
+				"time" : 0.0,
+				"bar" : 1.0,
+				"beat" : 1.0,
+				"phase" : 0.0,
+				"barPhase" : 0.0,
+				"loop": {
+					"active": 0,
+					"beats": 0,
+					"inTime": 0,
+					"outTime": 0
+				},
+				"fx": {
+					"1": {
+						"type": "",
+						"active": 0,
+						"dryWet": 0.0,
+						"parameterIsBeats": 0,
+						"parameterBeats": 0,
+						"parameterContinuous": 0.0
+					},
+					"2": {
+						"type": "",
+						"active": 0,
+						"dryWet": 0.0,
+						"parameterIsBeats": 0,
+						"parameterBeats": 0,
+						"parameterContinuous": 0.0
+					},
+					"3": {
+						"type": "",
+						"active": 0,
+						"dryWet": 0.0,
+						"parameterIsBeats": 0,
+						"parameterBeats": 0,
+						"parameterContinuous": 0.0
+					}
+				},
+				"neuralmix": {
+					"drums": {
+						"audibleVolume": 0.0,
+						"level": 0,
+						"mute": 0,
+						"solo": 0,
+						"eq": {
+							"low": 0.0,
+							"mid": 0.0,
+							"high": 0.0
+						}
+					},
+					"bass": {
+						"audibleVolume": 0.0,
+						"level": 0,
+						"mute": 0,
+						"solo": 0,
+						"eq": {
+							"low": 0.0,
+							"mid": 0.0,
+							"high": 0.0
+						}
+					},
+					"harmonic": {
+						"audibleVolume": 0.0,
+						"level": 0,
+						"mute": 0,
+						"solo": 0,
+						"eq": {
+							"low": 0.0,
+							"mid": 0.0,
+							"high": 0.0
+						}
+					},
+					"vocals": {
+						"audibleVolume": 0.0,
+						"level": 0,
+						"mute": 0,
+						"solo": 0,
+						"eq": {
+							"low": 0.0,
+							"mid": 0.0,
+							"high": 0.0
+						}
+					}
+				}
+			}
+		}
+	},
+	"max": {
+		"turntable1": {
+			"scratch": 0,
+			"scratch_dir": 0.0
+		},
+		"turntable2": {
+			"scratch": 0,
+			"scratch_dir": 0.0
+		},
+		"turntable3": {
+			"scratch": 0,
+			"scratch_dir": 0.0
+		},
+		"turntable4": {
+			"scratch": 0,
+			"scratch_dir": 0.0
+		}
+	}
+}

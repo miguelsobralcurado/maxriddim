@@ -1,0 +1,39 @@
+# 🎛️ Maxriddim
+
+> *Bridging creativity between Djay Pro and Max*
+
+---
+
+## What is Maxriddim?
+
+**Maxriddim** is a seamless bridge connecting **Djay Pro** and **Max** —
+inspired by a similar integration built for TouchDesigner.
+
+---
+
+## ✨ Why Maxriddim?
+
+| Without Maxriddim | With Maxriddim |
+|---|---|
+| Complex data communication setup | Plug & play connection |
+| Technical barrier to entry | Accessible to everyday users |
+| Limited artistic options | Expanded creative possibilities |
+
+---
+
+## 🎯 Who is it for?
+
+Maxriddim is designed for **everyday users** who want to unlock
+richer artistic options — *without* wrestling with low-level
+data communication configuration.
+
+---
+
+## 🔗 How it Works
+
+Maxriddim handles all the complexity **under the hood**,
+so you can focus on what matters most — *your art*.
+
+---
+
+*Maxriddim — less setup. More experimentation.*
