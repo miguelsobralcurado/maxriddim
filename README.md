@@ -1,4 +1,10 @@
-# Max.riddim - Bridging creativity between Djay Pro and Max
+<h1 align="left">Max.riddim</h1>
+<p align="left">
+  Bridging creativity between Djay Pro and Max.
+</p>
+<p align="left">
+    <img src="https://github.com/miguelsobralcurado/Max.riddim/blob/main/github_img/maxriddim_banner.jpg" width="630px" alt="Dark and grey texture, reads Max.riddim with an orange vinil serving as the dot"/>
+</p>
 
 Max.riddim is a bridge connecting Djay Pro and Max — inspired by the similar integration built by TouchDesigner.
 
@@ -16,7 +22,10 @@ Max.riddim is designed for **everyday users** who want to unlock richer artistic
 
 Max.riddim handles all the complexity under the hood, so you can focus on what matters most — your art.
 
-Max.riddim is built around the ODOT Toolkit and requires that package to be installed for this package to work.
+### Setup
+1. Download folder into max packages folder
+2. install ODOT from package manager inside Max
+3. Run Max.riddim
 
 *Maxriddim — less setup. More experimentation.*
 
