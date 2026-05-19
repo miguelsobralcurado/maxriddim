@@ -1,0 +1,24 @@
+{
+    "author" : "Miguel Sobral Curado, Lucas Xerxes",
+    "description" : "Bridging creativity between Djay Pro and Max",
+    "homepatcher" : "max.riddim Overview.maxpat",
+    "max_version_min" : "8.3", "max_version_max" : "none",
+    "name" : "Max.riddim",
+    "os" : {
+        "macintosh" : {
+            "platform" : [ "ia32", "x64" ],
+            "min_version" : "none"
+        },
+        "windows" : {
+            "platform" : [ "ia32", "x64" ],
+            "min_version" : "none"
+        }
+    },
+    "package_extra" : {
+        "reverse_domain" : "com.cycling74",
+        "copyright" : "Copyright (c) 2026 Lucas Xerxes, Miguel Sobral Curado"
+    },
+    "tags" : ["osc", "djay", "dj", "djay pro", "algoriddim", "odot"],
+    "version" : "1.0.0",
+    "website" : "https://github.com/miguelsobralcurado/Max.riddim"
+}
