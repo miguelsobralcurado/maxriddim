@@ -184,8 +184,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 62.0, 264.0, 261.0, 22.0 ],
-					"text" : "max.riddim.get @djay/turntable1/playback/time"
+					"patching_rect" : [ 62.0, 264.0, 246.0, 22.0 ],
+					"text" : "max.riddim.get djay/turntable1/playback/time"
 				}
 
 			}
@@ -256,8 +256,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "max.riddim.get.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/GitHub/maxriddim/Max.riddim/patchers",
-				"patcherrelativepath" : "../../../Projects/GitHub/maxriddim/Max.riddim/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/Max.riddim/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

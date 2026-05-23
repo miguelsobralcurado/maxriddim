@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="max.riddim.get">
+
+	<digest>
+		Get djay Pro values from max.riddim.brain
+	</digest>
+	
+	<description>
+		Retrieves specific values from the stored OSC data inside max.riddim.brain.
+		<br />
+		Needs a valid path like "djay/turntable1/playback/time".
+		<br />
+		Output value/type depends on the maxriddim dictionary structure.
+		<br />
+		<br />
+		djay/turntable1/playback/time returns a float.
+		<br />
+		djay/turntable1 returns a dictionary.
+	</description>
+	
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Miguel Sobral Curado</metadata>
+		<metadata name="author">Lucas Xerxes</metadata>
+		<metadata name="tag">Max.riddim</metadata>
+		<metadata name="tag">maxriddim</metadata>
+		<metadata name="tag">OSC</metadata>
+		<metadata name="tag">DJ</metadata>
+		<metadata name="tag">djay Pro</metadata>
+		<metadata name="tag">retrieve</metadata>
+		<metadata name="tag">dictionary</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="int/bang">
+			<digest>Toggle constant or trigger single get.</digest>
+			<description>
+				'1/0' to toggle constant retrieval on/off, 'bang' to trigger a single retrieval.
+			</description>
+		</inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="any">
+			<digest>Value associated to given key path.</digest>
+			<description>
+				Return any value associated to given key path if it exists inside the maxriddim dictionary.
+			</description>
+		</outlet>
+	</outletlist>
+	
+	<!--ARGUMENTS-->
+	<objarglist>
+		<objarg name="address" optional="0" type="symbol">
+			<digest>
+				Key path to the desired value/s
+			</digest>
+			<description>
+				This path will be used to search inside maxriddim.
+				<br />
+				Syntax: djay/.../... or max/.../...
+				<br />
+				(note that the first level doesnt start with a '/').
+			</description>
+		</objarg>
+	</objarglist>
+	
+	<!--MESSAGES-->
+	<methodlist>
+		<method name="bang">
+			<arglist />
+			<digest>
+				Output content once.
+			</digest>
+			<description>
+				Output the contents once.
+			</description>
+		</method>
+		<method name="int">
+			<arglist />
+			<digest>
+				Toggle constant output on/off
+			</digest>
+			<description>
+				Toggle constant retrieval.
+				<br />
+				1 to toggle reteival On.
+				<br />
+				0 to toggle retrieval Off.
+			</description>
+		</method>
+	</methodlist>
+
+	<!--SEEALSO-->
+	<seealsolist>
+		<seealso name="max.riddim Overview"/>
+		<seealso name="udpreceive"/>
+		<seealso name="dict"/>
+		<seealso name="dict.view"/>
+		<seealso name="dict.unpack"/>
+		<seealso name="max.riddim.get"/>
+		<seealso name="max.riddim.scratch"/>
+	</seealsolist>
+	
+</c74object>

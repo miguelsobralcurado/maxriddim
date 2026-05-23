@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="max.riddim.brain">
+
+	<digest>
+		Automatic djay Pro OSC receiving and parsing
+	</digest>
+	
+	<description>
+		Listens for incoming OSC messages from djay, parses them, and stores all values internally in a dictionary structure.
+		<br />
+		Connect it to the djay Pro OSC port.
+		<br />
+		It acts as the shared data hub for the entire Max.riddim package.
+	</description>
+	
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Miguel Sobral Curado</metadata>
+		<metadata name="author">Lucas Xerxes</metadata>
+		<metadata name="tag">Max.riddim</metadata>
+		<metadata name="tag">maxriddim</metadata>
+		<metadata name="tag">OSC</metadata>
+		<metadata name="tag">DJ</metadata>
+		<metadata name="tag">djay Pro</metadata>
+		<metadata name="tag">receive</metadata>
+		<metadata name="tag">dictionary</metadata>
+	</metadatalist>
+	
+	<!--INLETS-->
+	<inletlist>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="dictionary">
+			<digest>Dictionary output</digest>
+		</outlet>
+	</outletlist>
+	
+	<!--ARGUMENTS-->
+	<objarglist>
+		<objarg name="port" optional="0" type="int">
+			<digest>OSC port to listen to djay Pro, default is 10000.</digest>
+		</objarg>
+	</objarglist>
+	
+	<!--MESSAGES-->
+	<methodlist>
+	</methodlist>
+	
+	<!--ATTRIBUTES-->
+
+    <attributelist>
+    </attributelist>
+
+	<!--SEEALSO-->
+	<seealsolist>
+		<seealso name="max.riddim Overview"/>
+		<seealso name="udpreceive"/>
+		<seealso name="dict"/>
+		<seealso name="dict.view"/>
+		<seealso name="dict.unpack"/>
+		<seealso name="max.riddim.get"/>
+	</seealsolist>
+	
+</c74object>

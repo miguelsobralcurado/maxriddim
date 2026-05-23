@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 23.0, 47.0, 61.0, 22.0 ],
+					"text" : "r _scratch"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-34",
 					"linecount" : 3,
 					"maxclass" : "comment",
@@ -288,44 +300,6 @@
 					}
 ,
 					"text" : "p parse_to_dict"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-18",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 77.0, 47.0, 85.0, 22.0 ],
-					"text" : "routepass port"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-19",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 24.0, 15.0, 72.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 224.0, 145.0, 100.0, 22.0 ],
-					"text" : "patcherargs"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-20",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 77.0, 74.0, 149.0, 22.0 ],
-					"text" : "udpreceive 10000 CNMAT"
 				}
 
 			}
@@ -927,7 +901,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "FullPacket" ],
 					"patching_rect" : [ 746.0, 408.0, 234.0, 313.0 ],
-					"presentation_linecount" : 22,
 					"text" : "/i = /max/turntable4/scratch_dir - /was/max/turntable4/scratch_dir,\nif( /i > 0.025,\n    progn(\n        /scratch = 0,\n        /change = 1\n    ),\n    progn(\n        /scratch = 1,\n        /change = 0\n    )\n),\nif( /i < 0.01,\n    progn(\n        /scratch = 0,\n        /change = 0\n    )\n),\n/max/turntable4/scratch = /scratch,\n/max/turntable4/cue_change = /change,\ndelete(/i, /scratch, /change, /was/max/turntable4/scratch_dir)"
 				}
 
@@ -1202,7 +1175,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "FullPacket" ],
 					"patching_rect" : [ 505.0, 408.0, 234.0, 313.0 ],
-					"presentation_linecount" : 22,
 					"text" : "/i = /max/turntable3/scratch_dir - /was/max/turntable3/scratch_dir,\nif( /i > 0.025,\n    progn(\n        /scratch = 0,\n        /change = 1\n    ),\n    progn(\n        /scratch = 1,\n        /change = 0\n    )\n),\nif( /i < 0.01,\n    progn(\n        /scratch = 0,\n        /change = 0\n    )\n),\n/max/turntable3/scratch = /scratch,\n/max/turntable3/cue_change = /change,\ndelete(/i, /scratch, /change, /was/max/turntable3/scratch_dir)"
 				}
 
@@ -1477,7 +1449,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "FullPacket" ],
 					"patching_rect" : [ 264.0, 408.0, 234.0, 313.0 ],
-					"presentation_linecount" : 22,
 					"text" : "/i = /max/turntable2/scratch_dir - /was/max/turntable2/scratch_dir,\nif( /i > 0.025,\n    progn(\n        /scratch = 0,\n        /change = 1\n    ),\n    progn(\n        /scratch = 1,\n        /change = 0\n    )\n),\nif( /i < 0.01,\n    progn(\n        /scratch = 0,\n        /change = 0\n    )\n),\n/max/turntable2/scratch = /scratch,\n/max/turntable2/cue_change = /change,\ndelete(/i, /scratch, /change, /was/max/turntable2/scratch_dir)"
 				}
 
@@ -1752,7 +1723,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "FullPacket" ],
 					"patching_rect" : [ 23.0, 408.0, 234.0, 313.0 ],
-					"presentation_linecount" : 22,
 					"text" : "/i = /max/turntable1/scratch_dir - /was/max/turntable1/scratch_dir,\nif( /i > 0.025,\n    progn(\n        /scratch = 0,\n        /change = 1\n    ),\n    progn(\n        /scratch = 1,\n        /change = 0\n    )\n),\nif( /i < 0.01,\n    progn(\n        /scratch = 0,\n        /change = 0\n    )\n),\n/max/turntable1/scratch = /scratch,\n/max/turntable1/cue_change = /change,\ndelete(/i, /scratch, /change, /was/max/turntable1/scratch_dir)"
 				}
 
@@ -2128,7 +2098,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "FullPacket" ],
 					"patching_rect" : [ 78.0, 867.0, 1112.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : "o.gather /max/turntable1/scratch_dir /max/turntable2/scratch_dir /max/turntable3/scratch_dir /max/turntable4/scratch_dir /max/turntable1/cue_change /max/turntable2/cue_change /max/turntable3/cue_change /max/turntable4/cue_change"
 				}
 
@@ -2169,7 +2138,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "FullPacket" ],
 					"patching_rect" : [ 746.0, 247.0, 211.0, 86.0 ],
-					"presentation_linecount" : 5,
 					"text" : "/max/turntable4/scratch_dir = /turntable4/playback/time - /was/turntable4/playback/time,\ndelete(/turntable4/playback/time),\ndelete(/was/turntable4/playback/time)"
 				}
 
@@ -2224,7 +2192,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "FullPacket" ],
 					"patching_rect" : [ 505.0, 247.0, 211.0, 86.0 ],
-					"presentation_linecount" : 5,
 					"text" : "/max/turntable3/scratch_dir = /turntable3/playback/time - /was/turntable3/playback/time,\ndelete(/turntable3/playback/time),\ndelete(/was/turntable3/playback/time)"
 				}
 
@@ -2279,7 +2246,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "FullPacket" ],
 					"patching_rect" : [ 264.0, 247.0, 211.0, 86.0 ],
-					"presentation_linecount" : 5,
 					"text" : "/max/turntable2/scratch_dir = /turntable2/playback/time - /was/turntable2/playback/time,\ndelete(/turntable2/playback/time),\ndelete(/was/turntable2/playback/time)"
 				}
 
@@ -2334,7 +2300,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "FullPacket" ],
 					"patching_rect" : [ 23.0, 247.0, 212.0, 86.0 ],
-					"presentation_linecount" : 5,
 					"text" : "/max/turntable1/scratch_dir = /turntable1/playback/time - /was/turntable1/playback/time,\ndelete(/turntable1/playback/time),\ndelete(/was/turntable1/playback/time)"
 				}
 
@@ -2432,15 +2397,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
+					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"source" : [ "obj-19", 1 ]
 				}
 
 			}
@@ -2449,13 +2407,6 @@
 					"color" : [ 1.0, 0.8, 0.4, 1.0 ],
 					"destination" : [ "obj-31", 0 ],
 					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-20", 0 ]
 				}
 
 			}
@@ -2805,7 +2756,7 @@
 , 			{
 				"name" : "o.gather.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/odot/patchers/namespace",
-				"patcherrelativepath" : "../../../Packages/odot/patchers/namespace",
+				"patcherrelativepath" : "../../odot/patchers/namespace",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2824,7 +2775,7 @@
 , 			{
 				"name" : "o.righttoleft.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/odot/patchers/ordering",
-				"patcherrelativepath" : "../../../Packages/odot/patchers/ordering",
+				"patcherrelativepath" : "../../odot/patchers/ordering",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2847,7 +2798,7 @@
 , 			{
 				"name" : "o.was.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/odot/patchers",
-				"patcherrelativepath" : "../../../Packages/odot/patchers",
+				"patcherrelativepath" : "../../odot/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

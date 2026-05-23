@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 62.0, 1072.0, 804.0 ],
+		"rect" : [ 34.0, 62.0, 1114.0, 804.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,8 +46,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 770.0, 484.0, 323.0, 64.0 ],
-					"presentation_linecount" : 4,
+					"patching_rect" : [ 766.0, 484.0, 323.0, 64.0 ],
 					"text" : "When you create new variables like the scratch ones we recommend that you store them inside the maxriddim dictionary inside the /max/... dict\nSo /djay/... remains purely a receiving dictionary."
 				}
 
@@ -60,24 +59,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 943.0, 646.0, 150.0, 150.0 ],
-					"presentation_linecount" : 10,
+					"patching_rect" : [ 939.0, 646.0, 150.0, 150.0 ],
 					"text" : "This is the first creative exploration of the djay pro osc data we created.\n\nUse it as an inspiration to what you could extract from it.\n\nShare with us your own creative ideas!"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Lato",
-					"fontsize" : 14.0,
-					"id" : "obj-9",
-					"linecount" : 25,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 770.0, 40.0, 341.0, 426.0 ],
-					"presentation_linecount" : 25,
-					"text" : "Simply add max.riddim.scratch to your patch and connect it to the right port.\n\nIt will calculate the beginning of a scratch movement from any turntable and the constant direction the table is being turned.\n\n\n\nThe values are stored in the main maxriddim dictionary under this path:\n\n/max/turntable1/scratch, /max/turntable1/scratch_dir\n\nUse get with this arguments to access the values:\n@max/turntable1/scratch\n@max/turntable1/scratch_dir\n\nscratch = 0/1 toggle\n    1 = scratch started\n    0 = scratch ended\n\nscratch_dir = float\n     dir > 0. = clockwise\n     dir < 0. = counter-clockwise"
 				}
 
 			}
@@ -91,7 +74,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 41.0, 254.0, 422.0, 141.0 ],
-					"presentation_linecount" : 7,
 					"text" : "The central OSC receiver.\n\nConnect it to the port assigned inside djay pro\n\nThis object listens for incoming OSC messages from djay, parses them, and stores all values internally in a dictionary structure.\nIt acts as the shared data hub for the entire package.\n"
 				}
 
@@ -135,7 +117,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 338.0, 484.0, 422.0, 174.0 ],
-					"text" : "This object is used to retrieve specific values from the stored OSC data.\n\nCreate instances with a target data path to access parameters from djay, such as playback state, tempo, EQ values, crossfader position, or track information.\n\nOutput value depends on the maxriddim dictionary structure.\n@djay/turntable1/playback/time returns a float.\n@djay/turntable1 returns a dictionary."
+					"text" : "This object is used to retrieve specific values from the stored OSC data.\n\nCreate instances with a target data path to access parameters from djay, such as playback state, tempo, EQ values, crossfader position, or track information.\n\nOutput value depends on the maxriddim dictionary structure.\ndjay/turntable1/playback/time returns a float.\ndjay/turntable1 returns a dictionary."
 				}
 
 			}
@@ -204,8 +186,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 770.0, 154.0, 180.0, 23.0 ],
-					"text" : "max.riddim.scratch @port 10000"
+					"patching_rect" : [ 771.0, 154.0, 107.0, 23.0 ],
+					"text" : "max.riddim.scratch"
 				}
 
 			}
@@ -251,8 +233,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "dictionary" ],
-					"patching_rect" : [ 26.0, 225.0, 169.0, 23.0 ],
-					"text" : "max.riddim.brain @port 10000"
+					"patching_rect" : [ 26.0, 225.0, 134.0, 23.0 ],
+					"text" : "max.riddim.brain 10000"
 				}
 
 			}
@@ -264,8 +246,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 321.0, 453.0, 261.0, 23.0 ],
-					"text" : "max.riddim.get @djay/turntable1/playback/time"
+					"patching_rect" : [ 321.0, 453.0, 251.0, 23.0 ],
+					"text" : "max.riddim.get djay/turntable1/playback/time"
 				}
 
 			}
@@ -291,6 +273,20 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 13.0, 2.0, 241.0, 64.0 ],
 					"text" : "max.riddim"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Lato",
+					"fontsize" : 14.0,
+					"id" : "obj-9",
+					"linecount" : 24,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 766.0, 57.0, 341.0, 410.0 ],
+					"text" : "Simply add max.riddim.scratch to your patch.\n\nIt will calculate the beginning of a scratch movement from any turntable and the constant direction the table is being turned.\n\n\n\nThe values are stored in the main maxriddim dictionary under this path:\n\nmax/turntable1/scratch, max/turntable1/scratch_dir\n\nUse .get with this arguments to access the values:\nmax/turntable1/scratch\nmax/turntable1/scratch_dir\n\nscratch = 0/1 toggle\n    1 = scratch started\n    0 = scratch ended\n\nscratch_dir = float\n     dir > 0. = clockwise\n     dir < 0. = counter-clockwise"
 				}
 
 			}

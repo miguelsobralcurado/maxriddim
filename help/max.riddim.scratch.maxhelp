@@ -85,12 +85,12 @@
 					"fontname" : "Lato",
 					"fontsize" : 14.0,
 					"id" : "obj-9",
-					"linecount" : 23,
+					"linecount" : 22,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 227.0, 232.0, 341.0, 393.0 ],
-					"text" : "Simply add max.riddim.scratch to your patch and connect it to the right port.\n\nIt will calculate the beginning of a scratch movement from any turntable and the constant direction the table is being turned.\n\nThe values are stored in the main maxriddim dictionary under this path:\n\n/max/turntable1/scratch, /max/turntable1/scratch_dir\n\nUse get with this arguments to access the values:\n@max/turntable1/scratch\n@max/turntable1/scratch_dir\n\nscratch = 0/1 toggle\n    1 = scratch started\n    0 = scratch ended\n\nscratch_dir = float\n     dir > 0. = clockwise\n     dir < 0. = counter-clockwise"
+					"patching_rect" : [ 227.0, 232.0, 341.0, 376.0 ],
+					"text" : "Simply add max.riddim.scratch to your patch.\n\nIt will calculate the beginning of a scratch movement from any turntable and the constant direction the table is being turned.\n\nThe values are stored in the main maxriddim dictionary under this path:\n\nmax/turntable1/scratch, max/turntable1/scratch_dir\n\nUse get with this arguments to access the values:\nmax/turntable1/scratch\nmax/turntable1/scratch_dir\n\nscratch = 0/1 toggle\n    1 = scratch started\n    0 = scratch ended\n\nscratch_dir = float\n     dir > 0. = clockwise\n     dir < 0. = counter-clockwise"
 				}
 
 			}
@@ -101,8 +101,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 13.0, 233.0, 182.0, 22.0 ],
-					"text" : "max.riddim.scratch @port 10000"
+					"patching_rect" : [ 33.5, 232.0, 109.0, 22.0 ],
+					"text" : "max.riddim.scratch"
 				}
 
 			}
@@ -137,8 +137,8 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "max.riddim.scratch.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/GitHub/maxriddim/Max.riddim/patchers",
-				"patcherrelativepath" : "../../../Projects/GitHub/maxriddim/Max.riddim/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/Max.riddim/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

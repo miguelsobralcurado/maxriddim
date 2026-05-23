@@ -72,8 +72,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "dictionary" ],
-					"patching_rect" : [ 26.0, 218.0, 170.0, 23.0 ],
-					"text" : "max.riddim.brain @port 10000"
+					"patching_rect" : [ 26.0, 218.0, 134.0, 23.0 ],
+					"text" : "max.riddim.brain 10000"
 				}
 
 			}
@@ -86,7 +86,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.0, 247.0, 466.0, 118.0 ],
+					"patching_rect" : [ 39.0, 251.0, 466.0, 118.0 ],
 					"text" : "The central OSC receiver.\n\nConnect it to the port assigned inside djay pro\n\nThis object listens for incoming OSC messages from djay, parses them, and stores all values internally in a dictionary structure. It acts as the shared data hub for the entire package.\n"
 				}
 
@@ -129,8 +129,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "max.riddim.brain.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/GitHub/maxriddim/Max.riddim/patchers",
-				"patcherrelativepath" : "../../../Projects/GitHub/maxriddim/Max.riddim/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/Max.riddim/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

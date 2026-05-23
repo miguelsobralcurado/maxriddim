@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="max.riddim.scratch">
+
+	<digest>
+		Calculate and add scratch values to max.riddim.brain
+	</digest>
+
+	<description>
+		Calculates scratch data from incoming .brain OSC data, stores both values inside the maxriddim max/ dictionary.
+		<br />
+		Adds to maxriddim dict:
+		<br />
+		max/turntable1/scratch - 0/1 state boolean that recognizes when a scratch beggins and ends.
+		<br />
+		max/turntable1/scratch_dir - float for scratch direction (&gt; 0. clockwise, &lt; 0. counter-clockwise).
+	</description>
+	
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Miguel Sobral Curado</metadata>
+		<metadata name="author">Lucas Xerxes</metadata>
+		<metadata name="tag">Max.riddim</metadata>
+		<metadata name="tag">maxriddim</metadata>
+		<metadata name="tag">OSC</metadata>
+		<metadata name="tag">DJ</metadata>
+		<metadata name="tag">djay Pro</metadata>
+		<metadata name="tag">scratch</metadata>
+		<metadata name="tag">dictionary</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+	</outletlist>
+	
+	<!--ARGUMENTS-->
+	<objarglist>
+	</objarglist>
+	
+	<!--MESSAGES-->
+	<methodlist>
+	</methodlist>
+
+	<!--SEEALSO-->
+	<seealsolist>
+		<seealso name="max.riddim Overview"/>
+		<seealso name="udpreceive"/>
+		<seealso name="dict"/>
+		<seealso name="dict.view"/>
+		<seealso name="dict.unpack"/>
+		<seealso name="max.riddim.get"/>
+		<seealso name="max.riddim.brain"/>
+	</seealsolist>
+	
+</c74object>
